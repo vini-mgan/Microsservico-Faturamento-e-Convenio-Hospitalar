@@ -1,0 +1,15 @@
+# Arquivo de exemplo para override de configurações locais
+# Copie para docker-compose.override.yml e ajuste conforme necessário
+
+services:
+  billing-service:
+    environment:
+      # Desabilitar autenticação em desenvolvimento
+      AUTH_ENABLED: "false"
+      # Configurações de log
+      LOG_LEVEL: "DEBUG"
+    volumes:
+      # Montar código local para desenvolvimento (hot reload)
+      - .:/app
+    command: ["python3", "run.py"]
+
