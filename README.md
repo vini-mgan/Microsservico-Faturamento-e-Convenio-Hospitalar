@@ -2,6 +2,8 @@
 
 Microsserviço de faturamento e gestão de convênios médicos. Implementado com FastAPI, seguindo padrões de arquitetura de microsserviços, observabilidade e segurança.
 
+**Grupo:** Maria Luiza Ribeiro, Robeto Regis, Vinícius Martins
+
 ## Arquitetura
 
 - **API REST**: FastAPI com documentação automática (Swagger/OpenAPI)
@@ -20,7 +22,7 @@ Microsserviço de faturamento e gestão de convênios médicos. Implementado com
 - **Prometheus**: Métricas e monitoramento
 - **Docker & Docker Compose**: Containerização
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 ### Claims (Guias)
 - Criação de guias de faturamento
